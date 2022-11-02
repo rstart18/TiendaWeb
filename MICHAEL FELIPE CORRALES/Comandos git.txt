@@ -1,0 +1,31 @@
+algunos comando para usar en git
+
+los comando que tiene las comillas se escriben con ellas
+
+los comandos con <-  -> no se coloca esos simbolos cuando se escribe el comando
+
+git init  -> iniciar repositorio local
+git add .  -> agregar todos los archivos a repositorio local
+
+git commit -m "mesaje" -> guardar 
+
+git clone <-direcion repositorio-> ->clonar repositorio remoto
+
+git push origin <-nombre rama-> -> subir el repositorio local al repositorio remoto
+
+git branch  -> comando para ver las ramas que estan creadas
+
+git branch <-nombre nueva rama->  -> crear una nueva rama
+
+git checkout <-nombre rama->  -> comando para cambiar de rama
+
+git pull origin <-nombreRama->  ->actualizar repositorio local con el remoto
+
+
+git remote add origin <-enlace repositorio de githud->   -> para enlazar el repositorio local al repositorio remoto
+
+git push -u origin master  -> para subir el repositorio local al remoto por primera vez
+
+git merge <-nombre rama->  -> para unir ramas hay que ubicarse primero en la rama principal y luego aplicar el comando, esto hara que lo que contenga la rama del git merge se integre en la rama principal o en la que estemos actualmente
+
+git branch -d <-nombre de rama->  -> comando para eliminar una rama, hay que estar en una rama distinta a la que se quiere eliminar
